@@ -1,0 +1,41 @@
+Restassured
+------------
+--> RestAssured is an api/java library to automate testing of restapi's.
+
+dependencies
+------------
+download required dependencies from the restassured.io recommended documentation.
+
+Automating Basic HTTP requests:
+-------------------------------
+GET
+PUT
+POST
+DELETE
+---------------------------------------------------------------------------------------------
+website for practice: https://reqres.in/
+---------------------------------------------------------------------------------------------
+Gherkin keywords:  By default, restassured supports Bdd style of writing testcases
+----------------- 
+Given
+When 
+Then
+----------------------------------------------------------------------------------------------
+Static imports:
+---------------
+In order to use REST assured effectively it's recommended to statically import methods from the following classes:
+
+import static io.restassured.RestAssured.*
+import static io.restassured.matcher.RestAssuredMatchers.*
+import static org.hamcrest.Matchers.*
+________________________________________________________________________________________________________
+
+POST Request:
+--> pre-requisite:what is the data we are sending and what type of data that is "content-type" is required.
+--> There are many ways to generate the post request body. In this body, we send the data.
+--> see API Testing session 2 class.
+--->There are mainly 4 ways to create a body for POST request.
+    1)Hashmap
+    2)using org.json
+    3)using POJO Classes
+    4)using external JSON file.

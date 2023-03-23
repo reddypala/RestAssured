@@ -1,0 +1,4 @@
+
+Path Parameters and Query parameters:
+--------------------------------------
+-->Aim: what is path and query parameter and how to pass these parameters along with request body?

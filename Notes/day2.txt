@@ -1,0 +1,6 @@
+How to create our own API'S?
+ prerequisites:
+ 	1.node js
+ 	2.npm(node package manager)
+ 	3.json-server
+ To run any API, We should have some data at the backend.
